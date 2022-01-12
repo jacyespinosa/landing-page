@@ -1,0 +1,28 @@
+
+
+.container{
+  padding: 25px 300px;
+  background-color: #1F2937;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-container .header-logo {
+  flex: 4;
+  font-size: 30px;
+  color: #F9FAF8;
+}
+
+.flex-container .header{
+  font-size: 18px;
+  color: #E5E7EB;
+  flex: 1;
+}
+
+.header .one{
+  margin-left: auto;
+}
