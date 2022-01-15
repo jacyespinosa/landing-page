@@ -68,3 +68,51 @@ button{
   width: 115px;
   color: white;
 }
+
+.info-container{
+    padding: 25px 300px;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.info p {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+}
+
+
+.flex-info-container{
+  padding: 16px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  border-radius: 25px;
+  border: 4px solid blue;
+  padding: 20px;
+  gap: 50px;
+}
+
+.text-under-box{
+  width: 800px;
+  padding: 16px;
+  justify-content: center;
+  background: white;
+  display: flex;
+  margin-left: 18%;
+  gap: 50px;
+}
+
+.text{
+  flex: 1;
+  padding-right: 25px;
+  text-align: center;;
+}
