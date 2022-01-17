@@ -107,7 +107,6 @@ button{
   justify-content: center;
   background: white;
   display: flex;
-  margin-left: 18%;
   gap: 50px;
 }
 
@@ -115,4 +114,52 @@ button{
   flex: 1;
   padding-right: 25px;
   text-align: center;;
+}
+
+.quote-container{
+  padding: 25px 300px;
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  flex-wrap: wrap;
+}
+
+.quote p{
+  flex: 1;
+  font: 36px lightc;
+  font-style: italic;
+  text-align: center;
+  color: #1F2937;
+}
+
+
+.author p{
+  flex: 1;
+  font: bold;
+  align-self: flex-end;
+}
+
+.action-container{
+  padding: 25px 300px;
+  background-color: white;
+  margin: 50px 0;
+  color: white;
+}
+
+.blue-box{
+  display: flex;
+  justify-content: center;
+  background: #3882F6;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+button{
+  background: #3882F6;
+  border-radius: 4px solid blue;
+  height: 35px;
+  width: 115px;
+  color: white;
+  flex-grow: 0;
+  margin-right: 100px;
 }
