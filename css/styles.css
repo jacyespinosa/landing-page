@@ -107,6 +107,7 @@ button{
   justify-content: center;
   background: white;
   display: flex;
+  margin-left: 18%;
   gap: 50px;
 }
 
@@ -162,4 +163,22 @@ button{
   color: white;
   flex-grow: 0;
   margin-right: 100px;
+}
+.inside-blue-box{
+  flex-grow: 3;
+  margin-left: 100px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inside-blue-box p{
+    margin-top: 5px;
+    font-size: 15px;
+      font-weight: lighter;
+}
+.footer{
+  padding: 25px 300px;
+  background-color: #1F2937;
+  color: white;
+  text-align: center;
 }
