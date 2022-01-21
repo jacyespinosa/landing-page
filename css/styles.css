@@ -1,4 +1,7 @@
 
+body {
+  margin: 0px;
+}
 
 .container{
   padding: 25px 300px;
@@ -21,6 +24,7 @@
   font-size: 18px;
   color: #E5E7EB;
   flex: 1;
+  text-align: center;
 }
 
 .header .one{
