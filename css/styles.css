@@ -4,13 +4,13 @@ body {
 }
 
 .container{
-  padding: 25px 300px;
   background-color: #1F2937;
   color: white;
   padding-bottom: 100px;
 }
 
 .flex-container{
+  padding: 25px 300px;
   display: flex;
 }
 
@@ -35,33 +35,19 @@ body {
   padding-top: 100px;
 }
 
-.context-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-    gap: 100px;
-}
 
 .context-item{
   color: white;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
-  flex: 1;
-  align-items: center;
-  text-align: left;
+  padding-bottom: 100px;
 }
 
 .website-awesome{
   font-size: 48px;
   color: #F9FAF8;
   margin-bottom: 0px;
-}
-
-.context-item.placeholder{
-  background-color: gray;
-  display: flex;
-  justify-content: center;
 }
 
 
@@ -74,18 +60,23 @@ button{
 }
 
 .info-container{
-    padding: 25px 300px;
-    background-color: white;
-    padding-bottom: 100px;
+  padding: 25px 300px;
+  background-color: white;
+  padding-bottom: 100px;
 }
 
-.info p {
+.info .about-me-title {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
   text-align: center;
 }
 
+.about-context{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
 
 .flex-info-container{
   padding: 16px;
@@ -99,11 +90,14 @@ button{
 .box {
   width: 120px;
   height: 120px;
-  border-radius: 25px;
-  border: 4px solid blue;
-  padding: 20px;
+
   gap: 50px;
 }
+
+.box img{
+  flex: 1;
+}
+
 
 .text-under-box{
   width: 800px;
@@ -121,7 +115,7 @@ button{
   text-align: center;;
 }
 
-.quote-container{
+.project-container{
   padding: 25px 300px;
   display: flex;
   justify-content: center;
